@@ -1,0 +1,20 @@
+{
+  "name": "n1-setup",
+  "version": "1.0.0",
+  "description": "n1 setup",
+  "license": "ISC",
+  "author": "Joshua Soriano Rosario",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.10.1"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
