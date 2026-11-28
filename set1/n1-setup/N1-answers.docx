@@ -1,0 +1,24 @@
+1. version – Tells developers the current version of the project.
+
+2. description – Tells developers the purpose or what the project 
+is about.
+
+3. main – Specifies the main entry-point file of the project.
+
+4. scripts – Contains commands that can be executed using npm, 
+such as starting or running the project.
+
+5. dependencies – Contains the packages or libraries required for 
+the application to work properly.
+
+6. devDependencies – Contains packages used during development,
+such as tools for testing, debugging, and automatically restarting 
+the application.
+
+What is the node_modules folder, and why is it not included when you submit or share a project?
+The node_modules folder stores all the packages and libraries 
+installed in a Node.js project. It is not included when submitting 
+or sharing a project because it can contain many files and take up 
+a lot of storage. Instead, developers share the package.json and
+package-lock.json files so that others can install the required 
+packages by running npm install
